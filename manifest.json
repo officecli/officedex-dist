@@ -3,25 +3,25 @@
   "notes": "**Full Changelog**: https://github.com/officecli/officedex/compare/v0.4.1...v0.5.0",
   "minSupportedVersion": "",
   "mandatory": false,
-  "publishedAt": "2026-05-26T04:44:33.136Z",
+  "publishedAt": "2026-05-26T05:23:55.469Z",
   "assets": {
     "darwin-arm64": {
       "url": "https://github.com/officecli/officedex/releases/download/v0.5.0/OfficeDex-v0.5.0-darwin-universal.zip",
-      "sha256": "8d156d9ee36b9255347f2ee6c6895228559f5f68d6749195762260c5d480654d",
-      "size": 29575302
+      "sha256": "ef5c0161f91d4caf30677f00d7a27f53bac06744a302d3f7d8a282b19c43a3a9",
+      "size": 29362215
     },
     "darwin-amd64": {
       "url": "https://github.com/officecli/officedex/releases/download/v0.5.0/OfficeDex-v0.5.0-darwin-universal.zip",
-      "sha256": "8d156d9ee36b9255347f2ee6c6895228559f5f68d6749195762260c5d480654d",
-      "size": 29575302
+      "sha256": "ef5c0161f91d4caf30677f00d7a27f53bac06744a302d3f7d8a282b19c43a3a9",
+      "size": 29362215
     },
     "darwin-universal": {
       "url": "https://github.com/officecli/officedex/releases/download/v0.5.0/OfficeDex-v0.5.0-darwin-universal.zip",
-      "sha256": "8d156d9ee36b9255347f2ee6c6895228559f5f68d6749195762260c5d480654d",
-      "size": 29575302
+      "sha256": "ef5c0161f91d4caf30677f00d7a27f53bac06744a302d3f7d8a282b19c43a3a9",
+      "size": 29362215
     },
     "windows-amd64": {
-      "url": "https://github.com/officecli/officedex/releases/download/v0.5.0/OfficeDex-v0.5.0-windows-amd64.zip",
+      "url": "https://github.com/officecli/officedex/releases/download/v0.5.0/win.zip",
       "sha256": "fcb6c871661c1aed0b7368e777d53b3a9bc90a8af7ffd7a17a35395f19dd8137",
       "size": 22922721
     }
