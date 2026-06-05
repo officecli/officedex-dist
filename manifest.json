@@ -1,6 +1,6 @@
 {
   "version": "0.5.16",
-  "notes": "**Full Changelog**: https://github.com/officecli/officedex/compare/v0.5.15...v0.5.16",
+  "notes": "## OfficeDex v0.5.16\n\n### New Features\n- Image template results can now be saved from the desktop app and submitted for review.\n\n### Improvements\n- OfficeDex now bundles the latest OfficeCLI runtime, bringing the newest document-generation runtime updates into the desktop app.\n\n### Bug Fixes\n- Fixed a task handoff issue that could interrupt very fast submissions before the workspace finished showing the submitted prompt.",
   "minSupportedVersion": "",
   "mandatory": false,
   "publishedAt": "2026-06-05T07:09:54.648Z",
