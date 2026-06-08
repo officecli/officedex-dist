@@ -1,6 +1,6 @@
 {
   "version": "0.5.20",
-  "notes": "**Full Changelog**: https://github.com/officecli/officedex/compare/v0.5.19...v0.5.20",
+  "notes": "## What's new\n- Added paid-user watermark controls in Settings.\n- Free image generations now include clearer OfficeDex watermarks.\n- Bundled the latest OfficeCLI runtime.\n\n## Fixed\n- Watermark opt-out now follows paid-user status consistently.\n- Removed the custom watermark text setting to keep watermark behavior predictable.",
   "minSupportedVersion": "",
   "mandatory": false,
   "publishedAt": "2026-06-08T11:13:18.264Z",
