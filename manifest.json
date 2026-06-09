@@ -1,6 +1,6 @@
 {
   "version": "0.5.21",
-  "notes": "**Full Changelog**: https://github.com/officecli/officedex/compare/v0.5.20...v0.5.21",
+  "notes": "This update temporarily hides GIF generation from the new-generation format picker while the experience is refined. Existing saved GIF outputs remain accessible.",
   "minSupportedVersion": "",
   "mandatory": false,
   "publishedAt": "2026-06-09T02:17:08.882Z",
