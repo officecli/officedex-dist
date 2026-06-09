@@ -1,6 +1,6 @@
 {
   "version": "0.5.23",
-  "notes": "**Full Changelog**: https://github.com/officecli/officedex/compare/v0.5.22...v0.5.23",
+  "notes": "## What's new\n- Updated the generated-image footer watermark wording.\n- Bundled the latest OfficeCLI runtime.\n\n## Fixed\n- Footer watermark branding now consistently refers to OfficeDex AI.",
   "minSupportedVersion": "",
   "mandatory": false,
   "publishedAt": "2026-06-09T03:09:05.393Z",
