@@ -1,6 +1,6 @@
 {
   "version": "0.5.25",
-  "notes": "**Full Changelog**: https://github.com/officecli/officedex/compare/v0.5.24...v0.5.25",
+  "notes": "## What's Changed\n\n- Improved image generation reliability when long-running requests are interrupted or retried.\n- Made reference image controls clearer in the image generation flow.\n- Added a collapsible template prompt preview to keep the composer focused.\n- Updated the bundled OfficeCLI runtime to 0.2.112.\n\n**Full Changelog**: https://github.com/officecli/officedex/compare/v0.5.24...v0.5.25",
   "minSupportedVersion": "",
   "mandatory": false,
   "publishedAt": "2026-06-09T08:34:53.248Z",
