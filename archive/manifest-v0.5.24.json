@@ -1,9 +1,9 @@
 {
   "version": "0.5.24",
-  "notes": "**Full Changelog**: https://github.com/officecli/officedex/compare/v0.5.23...v0.5.24",
+  "notes": "## What's new\n- Image template fields are easier to customize: default values now appear as helpful placeholders instead of filling the fields automatically.\n\n## Fixed\n- Image template cards now show a clean placeholder when a local template has no thumbnail or a thumbnail cannot load.",
   "minSupportedVersion": "",
   "mandatory": false,
-  "publishedAt": "2026-06-09T06:50:38.371Z",
+  "publishedAt": "2026-06-09T06:54:25.687Z",
   "assets": {
     "darwin-arm64": {
       "url": "https://github.com/officecli/officedex/releases/download/v0.5.24/OfficeDex-v0.5.24-darwin-universal.zip",
