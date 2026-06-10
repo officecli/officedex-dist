@@ -1,6 +1,6 @@
 {
   "version": "0.5.28",
-  "notes": "**Full Changelog**: https://github.com/officecli/officedex/compare/v0.5.27...v0.5.28",
+  "notes": "OfficeDex 0.5.28 refreshes the bundled OfficeCLI runtime so new downloads include the latest document-generation improvements and fixes.",
   "minSupportedVersion": "",
   "mandatory": false,
   "publishedAt": "2026-06-10T07:23:02.246Z",
