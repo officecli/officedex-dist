@@ -1,9 +1,9 @@
 {
   "version": "0.5.30",
-  "notes": "**Full Changelog**: https://github.com/officecli/officedex/compare/v0.5.29...v0.5.30",
+  "notes": "## What's Changed\n\n- Settings now shows only the selected section's controls, so each area feels focused and easier to scan.\n- The Settings side menu now works as a clear section switcher and keeps the active section highlighted.\n- Unrelated Settings controls stay out of view until their section is selected.\n\n**Full Changelog**: https://github.com/officecli/officedex/compare/v0.5.29...v0.5.30",
   "minSupportedVersion": "",
   "mandatory": false,
-  "publishedAt": "2026-06-10T09:02:58.455Z",
+  "publishedAt": "2026-06-10T09:04:10.145Z",
   "assets": {
     "darwin-arm64": {
       "url": "https://github.com/officecli/officedex/releases/download/v0.5.30/OfficeDex-v0.5.30-darwin-universal.zip",
