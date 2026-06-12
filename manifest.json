@@ -1,6 +1,6 @@
 {
   "version": "0.5.37",
-  "notes": "**Full Changelog**: https://github.com/officecli/officedex/compare/v0.5.36...v0.5.37",
+  "notes": "## What's new\n\n- Image template generation now has a clearer split workspace for browsing templates while preparing prompts and reference images.\n- Smart generation now shows multi-step follow-up questions with richer answer choices.\n- Reviewed plans remain available after a run finishes, so you can revisit what was approved.\n- Bundles the latest OfficeCLI runtime for improved generation reliability.",
   "minSupportedVersion": "",
   "mandatory": false,
   "publishedAt": "2026-06-12T03:19:05.413Z",
