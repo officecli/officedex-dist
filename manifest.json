@@ -1,6 +1,6 @@
 {
   "version": "0.5.39",
-  "notes": "**Full Changelog**: https://github.com/officecli/officedex/compare/v0.5.38...v0.5.39",
+  "notes": "OfficeDex 0.5.39 focuses on conversation stability while working with generation tasks.\n\nWhat changed:\n- New chats now stay open when another conversation is still generating in the background.\n- Plan-mode prompts now accept selected answers reliably, including tasks started inside a project workspace.\n- Cancelling or responding to an active task is more consistent across workspace-based conversations.\n\nFull Changelog: https://github.com/officecli/officedex/compare/v0.5.38...v0.5.39",
   "minSupportedVersion": "",
   "mandatory": false,
   "publishedAt": "2026-06-12T13:26:27.283Z",
