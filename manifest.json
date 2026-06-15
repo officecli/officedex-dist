@@ -1,6 +1,6 @@
 {
   "version": "0.5.40",
-  "notes": "**Full Changelog**: https://github.com/officecli/officedex/compare/v0.5.39...v0.5.40",
+  "notes": "OfficeDex now handles interrupted planning flows more reliably: saved answers are preserved, recovered plans still wait for your approval, and cancelled plans are shown clearly in history.\n\nDesktop notifications now have their own Settings section with a test button, so you can confirm system notification permissions before relying on background completion alerts.",
   "minSupportedVersion": "",
   "mandatory": false,
   "publishedAt": "2026-06-14T15:41:27.959Z",
