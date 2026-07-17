@@ -1,28 +1,28 @@
 {
   "version": "0.6.2",
-  "notes": "**Full Changelog**: https://github.com/officecli/officedex/compare/v0.6.1...v0.6.2",
+  "notes": "**Full Changelog**: https://github.com/officecli/officedex/compare/v0.6.1...v0.6.2\n\n**Full Changelog**: https://github.com/officecli/officedex/compare/v0.6.1...v0.6.2",
   "minSupportedVersion": "",
   "mandatory": false,
-  "publishedAt": "2026-07-17T06:20:24.286Z",
+  "publishedAt": "2026-07-17T06:43:32.294Z",
   "assets": {
     "darwin-arm64": {
       "url": "https://github.com/officecli/officedex/releases/download/v0.6.2/OfficeDex-v0.6.2-darwin-universal.zip",
-      "sha256": "c00be4fdda50c3eb9737d2b3250a45720c46c6868c6b3c8bf502c09bdf7129e7",
-      "size": 170476988
+      "sha256": "f1cc2ac8f3fdd696db6a7cb53c161902a78cf8379d3a5142dacf0854fc577f4d",
+      "size": 170477585
     },
     "darwin-amd64": {
       "url": "https://github.com/officecli/officedex/releases/download/v0.6.2/OfficeDex-v0.6.2-darwin-universal.zip",
-      "sha256": "c00be4fdda50c3eb9737d2b3250a45720c46c6868c6b3c8bf502c09bdf7129e7",
-      "size": 170476988
+      "sha256": "f1cc2ac8f3fdd696db6a7cb53c161902a78cf8379d3a5142dacf0854fc577f4d",
+      "size": 170477585
     },
     "darwin-universal": {
       "url": "https://github.com/officecli/officedex/releases/download/v0.6.2/OfficeDex-v0.6.2-darwin-universal.zip",
-      "sha256": "c00be4fdda50c3eb9737d2b3250a45720c46c6868c6b3c8bf502c09bdf7129e7",
-      "size": 170476988
+      "sha256": "f1cc2ac8f3fdd696db6a7cb53c161902a78cf8379d3a5142dacf0854fc577f4d",
+      "size": 170477585
     },
     "windows-amd64": {
       "url": "https://github.com/officecli/officedex/releases/download/v0.6.2/OfficeDex-v0.6.2-windows-amd64.zip",
-      "sha256": "7e7e38eddeb2e3a2e939ee9224e320eb81344330d1cd7548746397afd0654346",
+      "sha256": "291b0554b6194f8b3587550118494f577bd9b130fd32b537f6c6e3327ed120a9",
       "size": 82976651
     }
   }
