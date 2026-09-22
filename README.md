@@ -9,8 +9,11 @@ the desktop app can fetch updates without authentication.
 
 | Resource | URL |
 |---|---|
-| Auto-update manifest | `https://raw.githubusercontent.com/officecli/officedex-dist/main/manifest.json` |
-| Per-version binaries | `https://raw.githubusercontent.com/officecli/officedex-dist/main/releases/v<x.y.z>/` |
+| Auto-update manifest (0.5.x / `stable`) | `https://raw.githubusercontent.com/officecli/officedex-dist/main/manifest.json` |
+| Auto-update manifest (1.0) | `https://raw.githubusercontent.com/officecli/officedex-dist/main/channels/1.0/manifest.json` |
+| Per-version binaries | GitHub Releases on `officecli/officedex` (`/releases/download/v<x.y.z>/`) |
+
+`manifest.json` at the repository root is the 0.5.x production channel. Do not point it at 1.0.x while 0.5.x clients are still in the field. The 1.0 desktop builds bake the `channels/1.0/` URL.
 
 The desktop app polls the manifest every 4 hours (and on window focus after
 30 minutes of inactivity). The manifest format is documented in
@@ -46,28 +49,27 @@ The desktop app polls the manifest every 4 hours (and on window focus after
 
 ```
 officedex-dist/
-├── manifest.json                # Single source of truth for current release
-├── releases/
-│   ├── v0.1.0/
-│   │   ├── OfficeDex-v0.1.0-darwin-universal.zip
-│   │   └── OfficeDex-v0.1.0-windows-amd64.zip
-│   └── v0.x.y/...
-└── archive/                     # Historical manifest snapshots (optional)
-    └── manifest-v0.1.0.json
+├── manifest.json                # 0.5.x production channel
+├── archive/                     # Historical 0.5.x manifest snapshots
+│   └── manifest-v0.5.43.json
+└── channels/
+    └── 1.0/
+        ├── manifest.json        # develop/1.0 channel
+        └── archive/
+            └── manifest-v1.0.N.json
 ```
 
 ## How releases happen
 
 Releases are driven from the source repo:
 
-1. Maintainer bumps version in `app.go`, `package.json`, `wails.json` and tags
-   `vX.Y.Z` in `officecli/officedex`.
-2. The `Release` GitHub Actions workflow builds both platforms and publishes
-   a GitHub Release with the zipped artifacts.
-3. The workflow's `Sync to officedex-dist` step then clones this repo, copies
-   the binaries into `releases/vX.Y.Z/`, regenerates `manifest.json`, and
-   pushes a single commit. This step uses a fine-grained PAT stored as the
-   `DIST_DEPLOY_TOKEN` secret.
+1.0 desktop builds are compiled and notarized on a maintainer machine
+   (`officedex/scripts/build-mac-dmg.sh`), then published with
+   `officedex/scripts/publish-update-channel.mjs --channel 1.0` into
+   `channels/1.0/`. That script will refuse to modify the root `manifest.json`.
+2. 0.5.x production still uses the historical tag → GitHub Release → root
+   `manifest.json` path. Keep `/releases/latest` on that line by marking 1.0
+   GitHub Releases as prerelease.
 
 The atomic commit guarantees clients never see a manifest pointing at a
 not-yet-uploaded binary.
