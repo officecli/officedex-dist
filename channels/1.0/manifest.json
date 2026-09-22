@@ -1,0 +1,14 @@
+{
+  "version": "1.0.1",
+  "notes": "develop/1.0 seed. Polls channels/1.0 only; does not replace the 0.5.x feed.",
+  "minSupportedVersion": "",
+  "mandatory": false,
+  "publishedAt": "2026-09-22T13:13:44.827Z",
+  "assets": {
+    "darwin-arm64": {
+      "url": "https://github.com/officecli/officedex/releases/download/v1.0.1/OfficeDex-v1.0.1-darwin-arm64.zip",
+      "sha256": "ea0e3d74815f635fe62682123bf042069029675eb81fb3b693a6813d1175421b",
+      "size": 329675611
+    }
+  }
+}
