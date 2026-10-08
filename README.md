@@ -9,11 +9,11 @@ the desktop app can fetch updates without authentication.
 
 | Resource | URL |
 |---|---|
-| Auto-update manifest (0.5.x / `stable`) | `https://raw.githubusercontent.com/officecli/officedex-dist/main/manifest.json` |
-| Auto-update manifest (1.0) | `https://raw.githubusercontent.com/officecli/officedex-dist/main/channels/1.0/manifest.json` |
+| Auto-update manifest (`stable`, every build since 1.0.13; 0.6.x clients poll it too) | `https://raw.githubusercontent.com/officecli/officedex-dist/main/manifest.json` (+ `manifest.json.sig`) |
+| Legacy bridge for 1.0.1–1.0.5 (frozen) | `https://raw.githubusercontent.com/officecli/officedex-dist/main/channels/1.0/manifest.json` |
 | Per-version binaries | GitHub Releases on `officecli/officedex` (`/releases/download/v<x.y.z>/`) |
 
-`manifest.json` at the repository root is the 0.5.x production channel. Do not point it at 1.0.x while 0.5.x clients are still in the field. The 1.0 desktop builds bake the `channels/1.0/` URL.
+`manifest.json` at the repository root is the production channel. It is written by `scripts/publish-update-channel.mjs --channel stable` in the source repository, which also writes the detached Ed25519 signature `manifest.json.sig`; clients from 1.0.12 on refuse an unsigned manifest. `channels/1.0/` is the frozen bridge that moved the earliest 1.0 prereleases onto the (now also frozen) OBS channel; do not write to it.
 
 The desktop app polls the manifest every 4 hours (and on window focus after
 30 minutes of inactivity). The manifest format is documented in
