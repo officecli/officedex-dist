@@ -1,0 +1,14 @@
+{
+  "version": "1.0.17",
+  "notes": "macOS arm64 测试版；修复图标主体浮雕、窗口控制与登录体验。",
+  "minSupportedVersion": "",
+  "mandatory": false,
+  "publishedAt": "2026-10-09T09:45:11.097Z",
+  "assets": {
+    "darwin-arm64": {
+      "url": "https://github.com/officecli/officedex/releases/download/v1.0.17/OfficeDex-v1.0.17-darwin-arm64.zip",
+      "sha256": "2c936845c67b7ee906e7d82bdefe6d0b3300186ebb41f0d89a306ea9415d99c0",
+      "size": 346784738
+    }
+  }
+}
