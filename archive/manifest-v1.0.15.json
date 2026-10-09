@@ -1,14 +1,24 @@
 {
   "version": "1.0.15",
-  "notes": "OfficeDex 1.0.15：新增更新渠道选择、首次设置、文件关联与恢复草稿，改进批量任务、排队与重试、文档和幻灯片编辑。本安装包默认稳定版；1.0.14 测试包用户切回稳定版后可升级。仅 macOS Apple Silicon (arm64)。",
+  "notes": "OfficeDex 1.0.15：支持 macOS Apple Silicon、Intel Mac 和 Windows x64。新增更新渠道选择、首次设置、文件关联与恢复草稿，改进批量任务、排队与重试、文档和幻灯片编辑。默认稳定版；1.0.14 测试包用户切回稳定版后可升级。macOS 已签名公证，Windows 已签名并附时间戳。",
   "minSupportedVersion": "",
   "mandatory": false,
-  "publishedAt": "2026-10-09T06:56:46.820Z",
+  "publishedAt": "2026-10-09T08:11:25.785Z",
   "assets": {
     "darwin-arm64": {
       "url": "https://github.com/officecli/officedex/releases/download/v1.0.15/OfficeDex-v1.0.15-darwin-arm64.zip",
       "sha256": "8a5375ef484d67c868ee55e9631290e8e2c998426222e05326e316bc79c6423e",
       "size": 346387380
+    },
+    "darwin-amd64": {
+      "url": "https://github.com/officecli/officedex/releases/download/v1.0.15/OfficeDex-v1.0.15-darwin-x64.zip",
+      "sha256": "7e6f22092412035a5898188a863e17944d05052e1ac22a42c35b66818ff4bee6",
+      "size": 315362581
+    },
+    "windows-amd64": {
+      "url": "https://github.com/officecli/officedex/releases/download/v1.0.15/OfficeDex-v1.0.15-windows-amd64-installer.exe",
+      "sha256": "d8005573b23894ac3dce48c761e7893a89a0009053dd24d245454be526b22ea2",
+      "size": 285171040
     }
   }
 }
