@@ -1,14 +1,14 @@
 {
-  "version": "1.0.27",
+  "version": "1.0.28",
   "notes": "",
   "minSupportedVersion": "",
   "mandatory": false,
-  "publishedAt": "2026-10-11T10:35:18.614Z",
+  "publishedAt": "2026-10-12T04:30:23.224Z",
   "assets": {
     "darwin-arm64": {
-      "url": "https://github.com/officecli/officedex/releases/download/v1.0.27/OfficeDex-v1.0.27-darwin-arm64.zip",
-      "sha256": "06df7f12b023985a92e95a5e6ce1abb06474e7c54722627013da174c5a755a57",
-      "size": 348043966
+      "url": "https://github.com/officecli/officedex/releases/download/v1.0.28/OfficeDex-v1.0.28-darwin-arm64.zip",
+      "sha256": "a2479ec84999091d61918c981888e3b186d3f1d5a5b7b8539a21b4d9c303a406",
+      "size": 348044396
     }
   }
 }
