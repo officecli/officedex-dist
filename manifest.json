@@ -1,24 +1,24 @@
 {
-  "version": "1.0.15",
-  "notes": "OfficeDex 1.0.15：支持 macOS Apple Silicon、Intel Mac 和 Windows x64。新增更新渠道选择、首次设置、文件关联与恢复草稿，改进批量任务、排队与重试、文档和幻灯片编辑。默认稳定版；1.0.14 测试包用户切回稳定版后可升级。macOS 已签名公证，Windows 已签名并附时间戳。",
+  "version": "1.0.28",
+  "notes": "OfficeDex 1.0.28 稳定版：支持 Apple Silicon、Intel Mac 和 Windows x64。修复原位编辑重复结果、重命名后保存、画布绘制和备注提交；同步字体资源。三个平台默认 Stable；macOS 已签名公证，Windows 已签名并附时间戳。",
   "minSupportedVersion": "",
   "mandatory": false,
-  "publishedAt": "2026-10-09T08:11:25.785Z",
+  "publishedAt": "2026-10-12T08:53:12.659Z",
   "assets": {
     "darwin-arm64": {
-      "url": "https://github.com/officecli/officedex/releases/download/v1.0.15/OfficeDex-v1.0.15-darwin-arm64.zip",
-      "sha256": "8a5375ef484d67c868ee55e9631290e8e2c998426222e05326e316bc79c6423e",
-      "size": 346387380
+      "url": "https://github.com/officecli/officedex/releases/download/v1.0.28/OfficeDex-v1.0.28-darwin-arm64.zip",
+      "sha256": "5b74f4e86086e07d203bf3ef34f2961c498dbd5ba6d4e86075aaba99f103c0e4",
+      "size": 306882249
     },
     "darwin-amd64": {
-      "url": "https://github.com/officecli/officedex/releases/download/v1.0.15/OfficeDex-v1.0.15-darwin-x64.zip",
-      "sha256": "7e6f22092412035a5898188a863e17944d05052e1ac22a42c35b66818ff4bee6",
-      "size": 315362581
+      "url": "https://github.com/officecli/officedex/releases/download/v1.0.28/OfficeDex-v1.0.28-darwin-x64.zip",
+      "sha256": "4dc57c9b5d92e8202dc2b67efce3d17d5d1982e224cde39dcc40538c11c11c1d",
+      "size": 315785043
     },
     "windows-amd64": {
-      "url": "https://github.com/officecli/officedex/releases/download/v1.0.15/OfficeDex-v1.0.15-windows-amd64-installer.exe",
-      "sha256": "d8005573b23894ac3dce48c761e7893a89a0009053dd24d245454be526b22ea2",
-      "size": 285171040
+      "url": "https://github.com/officecli/officedex/releases/download/v1.0.28/OfficeDex-v1.0.28-windows-amd64-installer.exe",
+      "sha256": "04a14f325f55e74a01a2c81a2d35794bd3b787f67afc094f81d5fa724c289c44",
+      "size": 285203368
     }
   }
 }
