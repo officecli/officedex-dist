@@ -1,0 +1,14 @@
+{
+  "version": "1.0.29",
+  "notes": "新增 PPT 模板导入入口与简单、高级生成模式；修复模板备注页导出和确认标题保留；更新内置 OfficeCLI。",
+  "minSupportedVersion": "",
+  "mandatory": false,
+  "publishedAt": "2026-10-12T07:56:05.959Z",
+  "assets": {
+    "darwin-arm64": {
+      "url": "https://github.com/officecli/officedex/releases/download/v1.0.29/OfficeDex-v1.0.29-darwin-arm64.zip",
+      "sha256": "d16936ca538813573f18c017441347d94aff45fdd335cda7a5e8336beab8f901",
+      "size": 348047227
+    }
+  }
+}
