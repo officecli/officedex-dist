@@ -3,5 +3,5 @@
   "version": 1,
   "algorithm": "ed25519",
   "keyId": "d95e519d5aabe4a9",
-  "signature": "dvXi0c16ThpVQbiqEBAfLu85uLJu3n9Vj6HcWWlcej1UzkT3ZRWBcWlQw7DhZi/OizAZyWuoMRmP2HNTG+WNDw=="
+  "signature": "baktAGVN62lstaUBThR2BMNIQsBfgE2BOY87awpHk3L+eBqu3A2eamPxU9stCfgjivX5Z3YET20nfNpqiNVnCg=="
 }
