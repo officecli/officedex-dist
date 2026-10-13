@@ -1,14 +1,14 @@
 {
-  "version": "1.0.30",
-  "notes": "修复带未评审扩展字段的 PPTX 无法导入为模板或在编辑器中打开的问题；新增 PPT 模板库并收敛 1.0.28 UI/UX 走查问题。",
+  "version": "1.0.31",
+  "notes": "修复按模板生成 PPT 经常失败的问题；早期导入的模板在使用时自动补齐所需文件；包含 1.0.30 的模板导入修复。",
   "minSupportedVersion": "",
   "mandatory": false,
-  "publishedAt": "2026-10-13T03:13:32.344Z",
+  "publishedAt": "2026-10-13T06:31:32.959Z",
   "assets": {
     "darwin-arm64": {
-      "url": "https://github.com/officecli/officedex/releases/download/v1.0.30/OfficeDex-v1.0.30-darwin-arm64.zip",
-      "sha256": "b5f68d60e62d3128886b1b1950e31ae01dde51493e2f620683f52794176f41fe",
-      "size": 348062365
+      "url": "https://github.com/officecli/officedex/releases/download/v1.0.31/OfficeDex-v1.0.31-darwin-arm64.zip",
+      "sha256": "bc818f46545ea9b53044f509fd34b6dd923df825d094c0c3a64c5fd66e9a617f",
+      "size": 348067941
     }
   }
 }

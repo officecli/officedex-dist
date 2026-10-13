@@ -1,0 +1,14 @@
+{
+  "version": "1.0.31",
+  "notes": "修复按模板生成 PPT 经常失败的问题；早期导入的模板在使用时自动补齐所需文件；包含 1.0.30 的模板导入修复。",
+  "minSupportedVersion": "",
+  "mandatory": false,
+  "publishedAt": "2026-10-13T06:31:32.959Z",
+  "assets": {
+    "darwin-arm64": {
+      "url": "https://github.com/officecli/officedex/releases/download/v1.0.31/OfficeDex-v1.0.31-darwin-arm64.zip",
+      "sha256": "bc818f46545ea9b53044f509fd34b6dd923df825d094c0c3a64c5fd66e9a617f",
+      "size": 348067941
+    }
+  }
+}
