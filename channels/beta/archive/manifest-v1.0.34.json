@@ -1,0 +1,14 @@
+{
+  "version": "1.0.34",
+  "notes": "没有选择输出类型时先由模型判断要生成的类型，不再误做成图片；修复连续生图第二次修改必然失败的问题；模型选择器跟随当前服务商；包含 1.0.33 的全部内容。",
+  "minSupportedVersion": "",
+  "mandatory": false,
+  "publishedAt": "2026-10-14T05:23:55.721Z",
+  "assets": {
+    "darwin-arm64": {
+      "url": "https://github.com/officecli/officedex/releases/download/v1.0.34/OfficeDex-v1.0.34-darwin-arm64.zip",
+      "sha256": "23504d9257e0acbe46db0a007ee1caa86e513dc3d037d8f083f5f0e86b2ece1c",
+      "size": 344547342
+    }
+  }
+}

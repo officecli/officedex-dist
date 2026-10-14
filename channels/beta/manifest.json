@@ -1,14 +1,14 @@
 {
-  "version": "1.0.33",
-  "notes": "PPT 生成默认改用新的逐页设计方案，支持自动配图；生成过程中画布逐页实时绘制；已生成的 PPT 可一次重做多页；包含 1.0.32 的全部内容。",
+  "version": "1.0.34",
+  "notes": "没有选择输出类型时先由模型判断要生成的类型，不再误做成图片；修复连续生图第二次修改必然失败的问题；模型选择器跟随当前服务商；包含 1.0.33 的全部内容。",
   "minSupportedVersion": "",
   "mandatory": false,
-  "publishedAt": "2026-10-14T03:32:15.934Z",
+  "publishedAt": "2026-10-14T05:23:55.721Z",
   "assets": {
     "darwin-arm64": {
-      "url": "https://github.com/officecli/officedex/releases/download/v1.0.33/OfficeDex-v1.0.33-darwin-arm64.zip",
-      "sha256": "12360416eead8e52e6e953e265e0c7517cb35a9f7af73a9cd9395ba345abfca1",
-      "size": 344540059
+      "url": "https://github.com/officecli/officedex/releases/download/v1.0.34/OfficeDex-v1.0.34-darwin-arm64.zip",
+      "sha256": "23504d9257e0acbe46db0a007ee1caa86e513dc3d037d8f083f5f0e86b2ece1c",
+      "size": 344547342
     }
   }
 }
