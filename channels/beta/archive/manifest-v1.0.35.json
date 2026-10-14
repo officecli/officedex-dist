@@ -1,0 +1,14 @@
+{
+  "version": "1.0.35",
+  "notes": "按 1.0.12 交互设计更新外层界面与侧栏；新建对话先回首页并自动命名；新增技能 · PPT 模板（Beta）与 / 引用；归档与删除分开；文档默认 80% 并按文件记住缩放；修复表格上新建菜单不可见；AI 改 Word 前先选中原文。",
+  "minSupportedVersion": "",
+  "mandatory": false,
+  "publishedAt": "2026-10-14T09:46:18.486Z",
+  "assets": {
+    "darwin-arm64": {
+      "url": "https://github.com/officecli/officedex/releases/download/v1.0.35/OfficeDex-v1.0.35-darwin-arm64.zip",
+      "sha256": "c095a611b395cad99fdf5c7524d3a5a9f7e8ea8acf91f6809c4640111c1a8195",
+      "size": 307483004
+    }
+  }
+}
