@@ -1,0 +1,14 @@
+{
+  "version": "1.0.32",
+  "notes": "修复 1.0.30 交互走查的 9 个问题（撤销修改、拒绝修改、换文件重试、重命名后的引用、PPT 需求确认与重新生成、页面状态、任务详情、设置下拉框）；修复中文项目名无法创建；修复含大图的 PPT 打不开。",
+  "minSupportedVersion": "",
+  "mandatory": false,
+  "publishedAt": "2026-10-14T02:38:18.999Z",
+  "assets": {
+    "darwin-arm64": {
+      "url": "https://github.com/officecli/officedex/releases/download/v1.0.32/OfficeDex-v1.0.32-darwin-arm64.zip",
+      "sha256": "64d3dc5d19917399cf4703acea9915d9b102dfacfa6405676d4a715e8fc2edd0",
+      "size": 357443111
+    }
+  }
+}
